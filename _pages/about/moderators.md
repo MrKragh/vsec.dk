@@ -20,7 +20,11 @@ Need any form of help regarding VSec or the moderation of the VSec community, pl
   
   {% case social[0] %}
     {% when "mail" %}
+<<<<<<< Updated upstream
 <li><a href="mailto:{{ social[1] }}/"><i class="fas fa-fw fa-envelope-square"></i><span class="label">Mail</span></a></li>
+=======
+<li><a href="mailto:{{ social[1] }}"><i class="fas fa-fw fa-envelope-square"></i><span class="label">Mail</span></a></li>
+>>>>>>> Stashed changes
 
     {% when "linkedin" %}
 <li><a href="https://www.linkedin.com/in/{{ social[1] }}/"><i class="fab fa-fw fa-linkedin"></i><span class="label">LinkedIn</span></a></li>

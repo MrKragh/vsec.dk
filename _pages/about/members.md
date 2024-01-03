@@ -22,7 +22,7 @@ You can also make a pull request directly from Github to this page as proof.
   
   {% case social[0] %}
     {% when "mail" %}
-<li><a href="mailto:{{ social[1] }}/"><i class="fas fa-fw fa-envelope-square"></i><span class="label">Mail</span></a></li>
+<li><a href="mailto:{{ social[1] }}"><i class="fas fa-fw fa-envelope-square"></i><span class="label">Mail</span></a></li>
 
     {% when "linkedin" %}
 <li><a href="https://www.linkedin.com/in/{{ social[1] }}/"><i class="fab fa-fw fa-linkedin"></i><span class="label">LinkedIn</span></a></li>
